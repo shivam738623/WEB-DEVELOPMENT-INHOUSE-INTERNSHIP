@@ -1,0 +1,16 @@
+body
+    {
+    background-color:rgb(156, 223, 102);
+    color: rgb(0, 38, 255);
+    word-spacing:15px;
+    text-transform:unset;
+}
+h1{
+    color: black;
+    line-height:50px;
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    text-decoration:underline;
+    text-transform:unset;
+    word-spacing:10px;
+}

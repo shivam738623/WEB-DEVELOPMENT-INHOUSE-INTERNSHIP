@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<body bgcolor="CDF0EA">
+	<h1 style="color:blue">
+		<U>REGISTRATION FORM</U>
+	</h1>
+	<form>
+
+		<label for="fname">FIRST NAME</label>
+		<input type="text" id="fname" name="fname"><br><br>
+
+		<label for="lname">LAST NAME</label>
+		<input type="text" id="lname" name="lname"><br><br>
+
+		<label for="email">EMAIL ID</label>
+		<input type="email" id="email" name="email"><br><br>
+
+
+		<label for="quantity">PHONE NO.</label>
+		<input type="tel" id="quantity" name="quantity" maxlength="10"><br><br>
+
+		<label for="college">COLLEGE</label>
+		<input type="text" id="college" name="college"><br><br>
+
+		<label for="age">AGE</label>
+		<input type="number" id="age" name="age" min="1" max="100"><br><br>
+
+		<label for="birthday">BIRTHDAY</label>
+		<input type="datetime-local" id="birthday" name="birthday"><br><br>
+
+		<label for="state">STATE</label>
+		<select id="state" name="state">
+
+			<option value="gujrat">GUJRAT</option>
+			<option value="maharashtra">MAHARASHTRA</option>
+			<option value="kerela">KERELA</option>
+	    	<option value="tamil nadu">TAMIL NADU</option>
+			<option value="uttar pradesh">UTTAR PRADESH</option>
+			<option value="bihar">BIHAR</option>
+			<option value="odisha">ODISHA</option>
+			<option value="delhi">DELHI</option>
+			<option value="rajasthan">RAJASTHAN</option>
+			<option value="punjab">PUNJAB</option>
+			<option value="andhra pradesh">ANDHRA PRADESH</option>
+			<option value="west bengal">WEST BENGAL</option>
+			<option value="telengana">TELANGANA</option>
+			<option value="uttrakhand">UTTRAKHAND</option>
+			<option value="goa">GOA</option>
+			<option value="haryana">HARYANA</option>
+			<option value="himachal pradesh">HIMACHAL PRADESH</option>
+			<option value="assam">ASSAM</option>
+			<option value="meghalaya">MEGHALAYA</option>
+			<option value="manipur">MANIPUR</option>
+			<option value="tripura">TRIPURA</option>
+		</select>
+
+
+		<p>GENDER :</p>
+		<input type="radio" id="male" name="gender" value="male">
+		<label for="male">MALE</label>
+
+		<input type="radio" id="female" name="gender" value="female">
+		<label for="female">FEMALE</label>
+
+		<input type="radio" id="other" name="gender" value="other">
+		<label for="other">OTHER</label><br><br>
+
+		<p>Kindly attach a passport size photo</p>
+		<label for="myfile">Select a file</label>
+		<input type="file" id="myfile" name="myfile"><br><br>
+
+		<label for="uname">USERNAME</label>
+		<input type="text" id="uname" name="uname"><br><br>
+
+		<label for="pwd">PASSWORD</label>
+		<input type="password" id="pwd" name="pwd"><br><br>
+
+		<label for="rpwd">RE-ENTER PASSWORD</label>
+		<input type="password" id="rpwd" name="rpwd"><br><br>
+
+		<input type="submit" value="submit">
+		<input type="reset">
+
+		<p>THANKU FOR THE REGISTRATION</p>
+
+		<button type="button" onclick="alert('successfully registered')">complete</button>
+	</form>
+
+</body>
+
+</html>
